@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+.head-bar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #F3F3F3;
+}
+
+.obryzatel-pipisek {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240px;
+}
+
+.website-icon {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.website-icon, .head-icon, .website-navigate-button, .search-image, .search-button:hover {
+    cursor: pointer;
+}
+
+.logo-text {
+    display: flex;
+    width: 77px;
+    height: 18.77px;
+    
+}
+
+.website-icon-text {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.website-navigatebar {
+    display: flex;
+    align-items: center;
+    
+    font-family: "Eudoxus Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+
+.website-navigate-button {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.head-icons {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.head-icon {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+
+.landing {
+    margin-top: 100px;
+}
+
+.landing-main {
+    display: flex;
+    
+}
+
+
+.landing-main-textH1 {
+    display:flex;
+    
+    font-family: "Eudoxus Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.landing-main-textH2 {
+    display: flex;
+    font-family: "Eudoxus Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.landing-lock {
+    max-width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-search {
+    margin-top: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 80px rgba(175, 173, 181, 0.2);
+    padding: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+.search-zone-style {
+    font-family: "Eudoxus Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    border:none;
+    outline: none;
+    margin-left: 18px;
+    width: 480px;
+    
+    
+
+}
+
+.search-pole {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-button {
+    display: flex;
+    width: 170px;
+    height: 54px; 
+    background: #518581;
+    font-family: Eudoxus Sans;
+    font-size: 18px;
+    font-weight: 700;
+    
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+    justify-content: center;
+    align-items: center
+    
+
+}
+
+.search-button:hover {
+    background: #395f5c;
+}
+
+
+.landing-image_content {
+    display: flex;
+    position: absolute;
+    top: 630px;
+    z-index: 1;
+}
+
+.pluses {
+    display: flex;
+}
+
+.pluses-title {
+    display: flex;
+    
+font-family: Eudoxus Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+}
